@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 function App() {
   
   return (
-    <div className="App">
+    <div>
       <header>
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
           <div className="container-fluid">

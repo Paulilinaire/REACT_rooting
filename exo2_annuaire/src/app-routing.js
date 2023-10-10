@@ -23,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/contact/add",
         element: <FormPage />
+      },
+      {
+        path: "/contact/edit/:contactId",
+        element: <FormPage />
+      },
+      {
+        path: "/contact/delete/:contactId",
+        element: <FormPage />
       }
     ]
   }

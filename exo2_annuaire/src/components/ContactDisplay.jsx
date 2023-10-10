@@ -16,7 +16,7 @@ const ContactDisplay = (props) => {
                 <span>{foundcontact.name}</span>
                 <span>{foundcontact.email}</span>
                 <span>{foundcontact.phonenumber}</span>
-                <button className="btn btn-warning">Edit</button>
+                <button className="btn btn-warning">Modifier</button>
                 <button className= "btn btn-danger">Supprimer</button>
             </li>
         </ul>
