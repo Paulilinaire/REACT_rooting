@@ -4,7 +4,7 @@ class Contact {
     constructor (firstname, name, email, phoneNumber) {
 
         this.firstname = firstname
-        this.lastname= name
+        this.name= name
         this.email= email
         this.phonenumber = phoneNumber
         this.id = ++Contact.count
