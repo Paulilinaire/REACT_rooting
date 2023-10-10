@@ -25,9 +25,9 @@ const ContactsPage = () => {
           </div>
           <h3>Contact List</h3>
           <hr />
-          {contacts.map(contact => (
-            <ContactDisplay key={contact.id} contactId={contact.id}/>
-          ))}
+            {contacts.length === 0 ? 
+              <p>Il n'y a pas de contact dans la base de données!</p> :
+            [...contacts].sort((a,b)=> a.id.localeCompare(b.id)).map(c => <ContactDisplay key={contacts.id} contactId={contacts.id}/>)}
            </>
 
           )
