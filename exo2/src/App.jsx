@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Link to={"/projects/123"}>Aller au projet</Link>
+        <Link to={"/projects/321"}>Aller au projet</Link>
+        <br />
+        <Link to={"/projects/321?mode=1&toto=2"}>Aller au projet</Link>
         <br />
         <button onClick={clickhandler}>Clic pour aller au projet</button>
       </main>
