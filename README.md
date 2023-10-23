@@ -6,9 +6,10 @@ Pour utiliser le routing dans REACT, il nous faut des packages supplémentaire:
 et ne pas oublier l'import CreateBrowserRouter : 
   const router = createBrowserRouter ([
     { path: "/",
-      element: <HomePage />}
+      element: <HomePage />},
     { path: "/about",
-      element: <AboutPage />}
-  )] ...
+      element: <AboutPage />},
+      ...
+  )] 
 
   
